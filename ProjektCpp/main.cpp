@@ -6,10 +6,10 @@
 //  Copyright © 2017 Jakub Radziwiński. All rights reserved.
 //
 
-#include <iostream>
+#include "Game.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main() {
+    Game game;
+    game.runGame();
+    return EXIT_SUCCESS;
 }
